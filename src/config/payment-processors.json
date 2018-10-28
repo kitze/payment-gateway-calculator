@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Stripe",
+    "percent": 2.9,
+    "fee": 0.3,
+    "currency": "EUR"
+  },
+  {
+    "name": "Gumroad",
+    "percent": 8.5,
+    "fee": 0.3,
+    "currency": "USD"
+  },
+  {
+    "name": "Gumroad Pro",
+    "percent": 3.5,
+    "fee": 0.3,
+    "currency": "USD"
+  },
+  {
+    "name": "Paddle",
+    "percent": 5,
+    "fee": 0.5,
+    "currency": "USD"
+  }
+]
