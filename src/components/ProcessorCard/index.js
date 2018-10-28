@@ -9,7 +9,7 @@ function ProcessorCard({ name, finalValue }) {
     <S.ProcessorCard>
       <S.Name>{name}</S.Name>
       <A.Space size={2} />
-      <S.Value>$ {finalValue.toFixed(2)}</S.Value>
+      <S.Value>$ {finalValue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</S.Value>
     </S.ProcessorCard>
   );
 }

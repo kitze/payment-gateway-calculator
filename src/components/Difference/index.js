@@ -48,7 +48,7 @@ function Difference({ processorValues }) {
         do {
           const firstPrice = firstProcessor.finalValue;
           const secondPrice = secondProcessor.finalValue;
-          const difference = (firstPrice - secondPrice).toFixed(2);
+          const difference = (firstPrice - secondPrice).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
           <Fragment>
             <A.Space size={3} />
             <S.Value>$ {difference}</S.Value>
