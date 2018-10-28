@@ -1,12 +1,14 @@
 import React from 'react';
 import { useInput } from 'react-hanger';
-import processors from 'config/payment-processors.json';
 import { maxBy, minBy } from 'lodash';
 import { ThumbsDown, ThumbsUp } from 'react-feather';
+import processors from 'config/payment-processors.json';
+
 //styles
 import * as S from './styles';
 import * as A from 'styles/shared-components';
 
+//components
 import ProcessorCard from 'components/ProcessorCard';
 import Difference from 'components/Difference';
 
@@ -27,7 +29,6 @@ const App = () => {
 
   return (
     <S.App>
-
       <S.Wrapper>
         <A.Vertical>
           <S.Title>Compare payment gateways</S.Title>
